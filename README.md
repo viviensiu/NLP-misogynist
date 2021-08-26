@@ -9,7 +9,7 @@ Source: "Data set for automatic detection of online misogynistic speech" (https:
 From the data set, we will train a ML model for NLP text classification. The definitions will be classified as either misogynistic or non-misogynistic.
 
 # Required libraries:
-Pandas, Matplotlib, WordCloud, STOPWORDS, scikit-learn (sklearn).
+Pandas, Matplotlib, WordCloud, STOPWORDS, TfidfVectorizer, scikit-learn (sklearn).
 
 # Methodology:
 1) Download the public data set and perform data cleaning:
