@@ -12,7 +12,6 @@ From the data set, we will train a ML model for NLP text classification. The def
 Pandas, Matplotlib, WordCloud, STOPWORDS, scikit-learn (sklearn).
 
 # Methodology:
-# ============
 1) Download the public data set and perform data cleaning:
     - identify and clean missing values.
     - convert texts to lower cases and remove punctuations.
@@ -25,17 +24,14 @@ Pandas, Matplotlib, WordCloud, STOPWORDS, scikit-learn (sklearn).
 8) Create some strings with misogynistic and non-misogynistic words, use these as unseen data and pass into the model to see if the predictions are accurate.
 
 # Conclusion: 
-# ===========
 Out of the 4 ML models, the RandomForestClassifier model produces the best scores followed by the DecisionTreeClassifier model. After fine-tuning the RandomForestClassifier, the final model performs at a f1-score of 0.87 out of 1. 
 
 # Ideas for expansion:
-# ====================
 - The data set used was extracted from Urban Dictionary between 1999 and 2016. Hence for better accuracy and future usage, it is suggested that the model be trained using an updated data set. 
 - The data set could be expanded with additional labels such as racism.
 - The methodology could be modified for other text classification projects such as identifying and flagging posts that violate community rules on forums and social media. 
 - Explore using Deep Learning models for text classification.
 
 # Useful reading:
-# ===============
 1) "How to Encode Text Data for Machine Learning with scikit-learn" (https://machinelearningmastery.com/prepare-text-data-machine-learning-scikit-learn/)
 2) "TF-IDF Vectorizer scikit-learn" (https://medium.com/@cmukesh8688/tf-idf-vectorizer-scikit-learn-dbc0244a911a)
